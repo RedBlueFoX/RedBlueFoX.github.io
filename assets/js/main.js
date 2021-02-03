@@ -162,7 +162,7 @@ SOFTWARE.
 			var interleaveOffset = 0.5;
 
 			var homeSwiper = new Swiper ('.js-home-slider', {
-				speed: 130,
+				speed: 730,
 				autoHeight: true,
 				autoplay: {
 					delay: 5000
@@ -228,12 +228,12 @@ SOFTWARE.
 			});
 
 			var navSwiperBg = new Swiper ('.js-nav-slider-bg', {
-				speed: 100,
+				speed: 730,
 				effect: 'fade'
 			});
 
 			var navSwiper = new Swiper ('.js-nav-slider', {
-				speed: 100,
+				speed: 730,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
@@ -259,7 +259,7 @@ SOFTWARE.
 					clickable: true,
 					dynamicBullets: true
 				},
-				speed: 130,
+				speed: 730,
 				parallax: true,
 				mousewheel: {
 					sensitivity: 1
@@ -268,13 +268,13 @@ SOFTWARE.
 
 			var parallaxVerticalSwiper2Bg = new Swiper(".js-parallax-slider-2-bg", {
 				direction: "vertical",
-				speed: 130,
+				speed: 730,
 				parallax: true
 			});
 
 			var parallaxVerticalSwiper2 = new Swiper ('.js-parallax-slider-2', {
 				direction: "vertical",
-				speed: 130,
+				speed: 730,
 				mousewheel: {
 					sensitivity: 1
 				},
@@ -303,7 +303,7 @@ SOFTWARE.
 					clickable: true,
 					dynamicBullets: true
 				},
-				speed: 130,
+				speed: 730,
 				parallax: true,
 				spaceBetween: 120,
 				breakpoints: {
@@ -332,7 +332,7 @@ SOFTWARE.
 						spaceBetween: 60
 					}
 				},
-				speed: 130,
+				speed: 730,
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
@@ -360,7 +360,7 @@ SOFTWARE.
 						spaceBetween: 60
 					}
 				},
-				speed: 130,
+				speed: 730,
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
@@ -379,13 +379,13 @@ SOFTWARE.
 
 			var fadeVerticalSwiperBg = new Swiper(".js-fade-slider-bg", {
 				direction: "vertical",
-				speed: 100,
+				speed: 730,
 				effect: 'fade'
 			});
 
 			var fadeVerticalSwiper = new Swiper ('.js-fade-slider', {
 				direction: "vertical",
-				speed: 100,
+				speed: 730,
 				mousewheel: {
 					sensitivity: 1
 				},
@@ -404,12 +404,12 @@ SOFTWARE.
 			});
 
 			var fadeSwiperBg = new Swiper(".js-fade-horizontal-slider-bg", {
-				speed: 100,
+				speed: 730,
 				effect: 'fade'
 			});
 
 			var fadeSwiper = new Swiper ('.js-fade-horizontal-slider', {
-				speed: 100,
+				speed: 730,
 				mousewheel: {
 					sensitivity: 1
 				},
@@ -430,7 +430,7 @@ SOFTWARE.
 			var view3Swiper = new Swiper ('.js-3-view-slider', {
 				slidesPerView: 1,
 				centeredSlides: true,
-				speed: 140,
+				speed: 730,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
@@ -453,7 +453,7 @@ SOFTWARE.
 			var view2Swiper = new Swiper ('.js-2-view-slider', {
 				slidesPerView: 1,
 				centeredSlides: true,
-				speed: 140,
+				speed: 730,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
@@ -471,7 +471,7 @@ SOFTWARE.
 			});
 
 			var view1Swiper = new Swiper ('.js-1-view-slider', {
-				speed: 100,
+				speed: 730,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
