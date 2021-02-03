@@ -127,7 +127,7 @@ SOFTWARE.
 			inClass: 'overlay-slide-in-right',
 			outClass: 'overlay-slide-out-right',
 			inDuration: 1,
-			outDuration: 1500,
+			outDuration: 150,
 			linkElement: '.js-animsition-link',
 			// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
 			loading: false,
@@ -135,7 +135,7 @@ SOFTWARE.
 			loadingClass: 'animsition-loading',
 			loadingInner: '', // e.g '<img src="loading.svg" />'
 			timeout: false,
-			timeoutCountdown: 5000,
+			timeoutCountdown: 500,
 			onLoadEvent: true,
 			browser: [ 'animation-duration', '-webkit-animation-duration'],
 			// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
@@ -156,13 +156,13 @@ SOFTWARE.
 			$('body').addClass('js-page-in');
 			setTimeout(function () {
 				$("body").addClass("js-page-in-anim-active");
-			}, 1200);
+			}, 120);
 
 			/* 3. Swiper slider */
 			var interleaveOffset = 0.5;
 
 			var homeSwiper = new Swiper ('.js-home-slider', {
-				speed: 1300,
+				speed: 130,
 				autoHeight: true,
 				autoplay: {
 					delay: 5000
@@ -228,12 +228,12 @@ SOFTWARE.
 			});
 
 			var navSwiperBg = new Swiper ('.js-nav-slider-bg', {
-				speed: 10000,
+				speed: 100,
 				effect: 'fade'
 			});
 
 			var navSwiper = new Swiper ('.js-nav-slider', {
-				speed: 10000,
+				speed: 100,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
@@ -259,7 +259,7 @@ SOFTWARE.
 					clickable: true,
 					dynamicBullets: true
 				},
-				speed: 13000,
+				speed: 130,
 				parallax: true,
 				mousewheel: {
 					sensitivity: 1
@@ -268,13 +268,13 @@ SOFTWARE.
 
 			var parallaxVerticalSwiper2Bg = new Swiper(".js-parallax-slider-2-bg", {
 				direction: "vertical",
-				speed: 13000,
+				speed: 130,
 				parallax: true
 			});
 
 			var parallaxVerticalSwiper2 = new Swiper ('.js-parallax-slider-2', {
 				direction: "vertical",
-				speed: 13000,
+				speed: 130,
 				mousewheel: {
 					sensitivity: 1
 				},
@@ -303,7 +303,7 @@ SOFTWARE.
 					clickable: true,
 					dynamicBullets: true
 				},
-				speed: 13000,
+				speed: 130,
 				parallax: true,
 				spaceBetween: 120,
 				breakpoints: {
@@ -332,7 +332,7 @@ SOFTWARE.
 						spaceBetween: 60
 					}
 				},
-				speed: 13000,
+				speed: 130,
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
@@ -360,7 +360,7 @@ SOFTWARE.
 						spaceBetween: 60
 					}
 				},
-				speed: 13000,
+				speed: 130,
 				pagination: {
 					el: '.swiper-pagination',
 					clickable: true,
@@ -379,13 +379,13 @@ SOFTWARE.
 
 			var fadeVerticalSwiperBg = new Swiper(".js-fade-slider-bg", {
 				direction: "vertical",
-				speed: 10000,
+				speed: 100,
 				effect: 'fade'
 			});
 
 			var fadeVerticalSwiper = new Swiper ('.js-fade-slider', {
 				direction: "vertical",
-				speed: 10000,
+				speed: 100,
 				mousewheel: {
 					sensitivity: 1
 				},
@@ -404,12 +404,12 @@ SOFTWARE.
 			});
 
 			var fadeSwiperBg = new Swiper(".js-fade-horizontal-slider-bg", {
-				speed: 10000,
+				speed: 100,
 				effect: 'fade'
 			});
 
 			var fadeSwiper = new Swiper ('.js-fade-horizontal-slider', {
-				speed: 10000,
+				speed: 100,
 				mousewheel: {
 					sensitivity: 1
 				},
@@ -430,7 +430,7 @@ SOFTWARE.
 			var view3Swiper = new Swiper ('.js-3-view-slider', {
 				slidesPerView: 1,
 				centeredSlides: true,
-				speed: 14000,
+				speed: 140,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
@@ -453,7 +453,7 @@ SOFTWARE.
 			var view2Swiper = new Swiper ('.js-2-view-slider', {
 				slidesPerView: 1,
 				centeredSlides: true,
-				speed: 14000,
+				speed: 140,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
@@ -471,7 +471,7 @@ SOFTWARE.
 			});
 
 			var view1Swiper = new Swiper ('.js-1-view-slider', {
-				speed: 14000,
+				speed: 100,
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev"
